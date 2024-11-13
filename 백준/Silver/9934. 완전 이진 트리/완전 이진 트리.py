@@ -18,4 +18,4 @@ values = list(map(int, input().split()))
 
 result = tree_by_level(K,values)
 for level in result:
-    print(" ".join(map(str, level)))
+    print(*level)
